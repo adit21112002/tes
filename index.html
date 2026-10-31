@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adit — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a href="#hero" class="nav__logo">adit.</a>
+    <ul class="nav__links">
+      <li><a href="#about">Tentang</a></li>
+      <li><a href="#experience">Pengalaman</a></li>
+      <li><a href="#skills">Keahlian</a></li>
+      <li><a href="#certifications">Sertifikat</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__content">
+      <p class="hero__greeting">Halo, saya</p>
+      <h1 class="hero__name">Adit<span class="accent">.</span></h1>
+      <p class="hero__role">Customer Service &amp; Management Graduate</p>
+      <p class="hero__desc">
+        Lulusan S1 Manajemen dengan IPK 3.73 yang teliti, komunikatif, dan adaptif.
+        Berpengalaman di bidang pelayanan pelanggan serta aktif dalam organisasi kemahasiswaan.
+      </p>
+      <div class="hero__actions">
+        <a href="#experience" class="btn btn--primary">Lihat Pengalaman</a>
+        <a href="#contact" class="btn btn--outline">Hubungi Saya</a>
+      </div>
+    </div>
+    <div class="hero__visual" aria-hidden="true">
+      <div class="hero__avatar">
+        <span>A</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section__title">Tentang Saya</h2>
+      <div class="about__grid">
+        <div class="about__text">
+          <p>
+            Lulusan S1 Manajemen dari Universitas Muhammadiyah Bandung dengan IPK 3.73.
+            Saya dikenal sebagai pribadi yang teliti, komunikatif, dan memiliki adaptasi yang cepat
+            dalam berbagai lingkungan kerja.
+          </p>
+          <p>
+            Memiliki pengalaman profesional di bidang pelayanan pelanggan, didukung oleh keaktifan
+            dalam organisasi Himpunan Mahasiswa Manajemen (HMM). Terampil dalam komunikasi
+            interpersonal, manajemen tugas, administrasi, dan koordinasi tim secara efektif.
+          </p>
+          <p>
+            Siap memberikan kontribusi optimal untuk mendukung kelancaran operasional perusahaan
+            dengan fokus pada Manajemen SDM, Operasional, Pemasaran, dan Statistik Bisnis.
+          </p>
+        </div>
+        <div class="about__stats">
+          <div class="stat">
+            <span class="stat__number">3.73</span>
+            <span class="stat__label">IPK</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">4+</span>
+            <span class="stat__label">Tahun Aktif Org.</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">2</span>
+            <span class="stat__label">Sertifikat</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section section--alt" id="experience">
+    <div class="container">
+      <h2 class="section__title">Pengalaman</h2>
+      <div class="timeline">
+
+        <!-- Work Experience -->
+        <div class="timeline__group">
+          <h3 class="timeline__category">Pengalaman Kerja</h3>
+
+          <div class="timeline__item reveal">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content">
+              <div class="timeline__header">
+                <div>
+                  <h4 class="timeline__role">Customer Service</h4>
+                  <p class="timeline__company">Storyland — Kota Bandung, Jawa Barat</p>
+                </div>
+                <span class="timeline__period">Agu 2025 – Agu 2026</span>
+              </div>
+              <ul class="timeline__list">
+                <li>Memberikan pelayanan langsung secara profesional kepada pengunjung serta menangani pertanyaan dan kendala dengan cepat dan solutif.</li>
+                <li>Memastikan kelancaran operasional harian area permainan/layanan, penanganan transaksi, dan menjaga tingkat kepuasan pelanggan.</li>
+                <li>Mengelola administrasi harian, manajemen stok, serta pencatatan laporan operasional layanan secara teliti dan terstruktur.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Organization Experience -->
+        <div class="timeline__group">
+          <h3 class="timeline__category">Pengalaman Organisasi</h3>
+
+          <div class="timeline__item reveal">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content">
+              <div class="timeline__header">
+                <div>
+                  <h4 class="timeline__role">Anggota</h4>
+                  <p class="timeline__company">Himpunan Mahasiswa Manajemen (HMM)</p>
+                </div>
+                <span class="timeline__period">Okt 2022 – Sep 2026</span>
+              </div>
+              <ul class="timeline__list">
+                <li>Berpartisipasi aktif dalam perencanaan dan pelaksanaan program kerja, kegiatan akademik, serta acara sosial kemahasiswaan.</li>
+                <li>Mengembangkan keterampilan komunikasi, kepemimpinan, dan kerja sama tim dalam menyelesaikan berbagai proyek kelompok organisasi.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div class="timeline__group">
+          <h3 class="timeline__category">Pendidikan</h3>
+
+          <div class="timeline__item reveal">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content">
+              <div class="timeline__header">
+                <div>
+                  <h4 class="timeline__role">S1 Manajemen</h4>
+                  <p class="timeline__company">Universitas Muhammadiyah Bandung — Kota Bandung, Jawa Barat</p>
+                </div>
+                <span class="timeline__period">Okt 2022 – Sep 2026</span>
+              </div>
+              <ul class="timeline__list">
+                <li>IPK: <strong>3.73 / 4.00</strong></li>
+                <li>Fokus Studi: Manajemen SDM, Manajemen Operasional, Pemasaran, dan Statistik Bisnis.</li>
+                <li>Aktif dalam pengembangan keterampilan analisis data dan penyusunan riset akademik terkait manajemen organisasi dan kedisiplinan kerja.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="container">
+      <h2 class="section__title">Keahlian</h2>
+      <div class="skills__grid">
+
+        <div class="skill-group reveal">
+          <h3 class="skill-group__title">Keahlian Profesional</h3>
+          <ul class="skill-list">
+            <li class="skill-item">
+              <span class="skill-item__name">Pelayanan Pelanggan</span>
+              <div class="skill-item__bar"><div class="skill-item__fill" data-width="92"></div></div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-item__name">Manajemen Operasional</span>
+              <div class="skill-item__bar"><div class="skill-item__fill" data-width="85"></div></div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-item__name">Administrasi &amp; Manajemen Stok</span>
+              <div class="skill-item__bar"><div class="skill-item__fill" data-width="88"></div></div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-item__name">Analisis Data</span>
+              <div class="skill-item__bar"><div class="skill-item__fill" data-width="78"></div></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="skill-group reveal">
+          <h3 class="skill-group__title">Soft Skills</h3>
+          <ul class="skill-list">
+            <li class="skill-item">
+              <span class="skill-item__name">Komunikasi Interpersonal</span>
+              <div class="skill-item__bar"><div class="skill-item__fill" data-width="90"></div></div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-item__name">Kerja Sama Tim</span>
+              <div class="skill-item__bar"><div class="skill-item__fill" data-width="90"></div></div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-item__name">Kepemimpinan</span>
+              <div class="skill-item__bar"><div class="skill-item__fill" data-width="80"></div></div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-item__name">Manajemen Waktu</span>
+              <div class="skill-item__bar"><div class="skill-item__fill" data-width="85"></div></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="skill-group reveal">
+          <h3 class="skill-group__title">Perangkat Lunak</h3>
+          <ul class="skill-list">
+            <li class="skill-item">
+              <span class="skill-item__name">Microsoft Office (Excel, Word, PPT)</span>
+              <div class="skill-item__bar"><div class="skill-item__fill" data-width="88"></div></div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-item__name">Spreadsheet</span>
+              <div class="skill-item__bar"><div class="skill-item__fill" data-width="85"></div></div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-item__name">SPSS</span>
+              <div class="skill-item__bar"><div class="skill-item__fill" data-width="72"></div></div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-item__name">Canva &amp; CapCut</span>
+              <div class="skill-item__bar"><div class="skill-item__fill" data-width="80"></div></div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Skill tags -->
+      <div class="skill-tags reveal">
+        <span class="tag">Customer Service</span>
+        <span class="tag">Manajemen SDM</span>
+        <span class="tag">Operasional</span>
+        <span class="tag">Administrasi</span>
+        <span class="tag">Manajemen Stok</span>
+        <span class="tag">Analisis Data</span>
+        <span class="tag">Manajemen Waktu</span>
+        <span class="tag">Pemecahan Masalah</span>
+        <span class="tag">Leadership</span>
+        <span class="tag">Teamwork</span>
+        <span class="tag">Microsoft Excel</span>
+        <span class="tag">SPSS</span>
+        <span class="tag">Canva</span>
+        <span class="tag">CapCut</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="section section--alt" id="certifications">
+    <div class="container">
+      <h2 class="section__title">Pelatihan &amp; Sertifikat</h2>
+      <div class="cert__grid">
+
+        <div class="cert-card reveal">
+          <div class="cert-card__icon" aria-hidden="true">🎓</div>
+          <div class="cert-card__body">
+            <h4 class="cert-card__title">Webinar Internasional: Strategy for Preparing Human Resources to Face AI Challenges</h4>
+            <p class="cert-card__org">Program Studi Manajemen, Fakultas Ekonomi dan Bisnis</p>
+            <p class="cert-card__org">Universitas Muhammadiyah Bandung</p>
+            <span class="cert-card__date">September 2023</span>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-card__icon" aria-hidden="true">📈</div>
+          <div class="cert-card__body">
+            <h4 class="cert-card__title">Pengantar Sekolah Pasar Modal Syariah</h4>
+            <p class="cert-card__org">Galeri Investasi Syariah BEI, Fakultas Ekonomi dan Bisnis</p>
+            <p class="cert-card__org">Universitas Muhammadiyah Bandung</p>
+            <span class="cert-card__date">Juli 2023</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 class="section__title">Kontak</h2>
+      <div class="contact__layout">
+        <div class="contact__info">
+          <p>Tertarik untuk berkolaborasi atau sekadar ngobrol? Jangan ragu untuk menghubungi saya.</p>
+          <ul class="contact__list">
+            <li>
+              <span class="contact__icon" aria-hidden="true">📍</span>
+              <span>Kota Bandung, Jawa Barat</span>
+            </li>
+            <li>
+              <span class="contact__icon" aria-hidden="true">📱</span>
+              <a href="tel:0895703130107">0895703130107</a>
+            </li>
+            <li>
+              <span class="contact__icon" aria-hidden="true">✉</span>
+              <a href="mailto:adityaramdhani774@gmail.com">adityaramdhani774@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+        <form class="contact__form" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Nama</label>
+            <input type="text" id="name" name="name" placeholder="Nama kamu" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="kamu@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Pesan</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tulis pesanmu di sini..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Kirim Pesan</button>
+          <p class="form__status" id="formStatus" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>Dibuat dengan ♥ oleh <strong>Adit</strong> — 2026</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
